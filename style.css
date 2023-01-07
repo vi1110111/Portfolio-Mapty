@@ -129,7 +129,7 @@ a:visited {
   gap: 0.5rem 2.5rem;
 
   /* Match height and activity boxes */
-  height: 9.25rem;
+  height: 10rem;
   transition: all 0.5s, transform 1ms;
 }
 
@@ -173,7 +173,8 @@ a:visited {
 }
 
 .form__btn {
-  display: none;
+  display: block;
+  width: 100%;
 }
 
 .copyright {
@@ -232,16 +233,19 @@ a:visited {
   .sidebar {
     height: 40vh;
     width: 100%;
-    padding: 3rem 2rem 4rem 2rem;
+    padding: 1.5rem 2rem 4rem 2rem;
   }
   .form__label {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .form__input {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .workout {
     padding: 1rem 0.5rem;
+  }
+  .logo {
+    margin-bottom: 1.5rem;
   }
 }
